@@ -10,19 +10,32 @@ There's a wealth of tools for data science. Where do you get started? Luckily fo
 Here are the things you should master:
 
 ##### data transforms:
-SQL, pandas, [dplyr](https://github.com/hadley/dplyr)
+SQL, [pandas](http://pandas.pydata.org/), [dplyr](https://github.com/hadley/dplyr)
 
 - Sarth recommends [SQLZOO](http://sqlzoo.net/) for picking up SQL
+
+  - Jason: "+1 got me through facebook interviews"
+
+
+- Jason recommends [Pandas From The Ground Up - PyCon on YouTube](https://youtu.be/5JnMutdy6Fw) for learning pandas from scratch
 
 - Jason says `dplyr` is much nicer to use than `pandas`, and doesn't require memorizing as much documentation
 
 ##### modelling:
-scikit-learn, glm (generalized linear model)
+[scikit-learn](http://scikit-learn.org/stable/), glm (generalized linear model)
 - if these are powerful enough for Yelp's recommendation engine, they're powerful enough for nearly all of your data science use cases too
 
   - protip: if Jason is your interviewer, don't mention neural networks unless you want to be rejected all the way into deepdream hell.
 
   - jokes aside, know your basics and develop stats maturity.
+
+Courses you can take to learn more about these concepts:
+
+- [STAT 331: Applied Linear Models](https://uwflow.com/course/stat331)
+
+- [STAT 431: Generalized Linear Models and their Applications](https://uwflow.com/course/stat431)
+
+- [STAT 444: Statistical Learning - Function Estimation](https://uwflow.com/course/stat444)
 
 #### reporting:
 [ipython](https://ipython.org/),
@@ -36,6 +49,8 @@ These are the best way for communicating your results, hands down. Always includ
 [tidyverse](http://tidyverse.org/) is a set of R packages that work well together and make data analysis much smoother.
 
 It includes `dplyr` and `ggplot2`, which are in these notes.
+
+A great resource to learn everything tidyverse is [R for Data Science](http://r4ds.had.co.nz/).
 
 ### visualization:
 
